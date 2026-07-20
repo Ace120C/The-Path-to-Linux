@@ -93,11 +93,15 @@ Viewing Running Processes
 Ending a Process (kill / pkill)
 .BL
 Init Systems
-.BL
-Introduction to Systemd
 .IP "11." 4
 .B "The Linux Filesystem"
 .BL
 Common Types of Filesystems
 .BL
 What does All these Folders mean?
+
+.bp
+.NH
+Introduction:
+.PP
+
