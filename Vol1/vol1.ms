@@ -91,6 +91,10 @@ What is a Process
 Viewing Running Processes
 .BL
 Ending a Process (kill / pkill)
+.BL
+Init Systems
+.BL
+Introduction to Systemd
 .IP "11." 4
 .B "The Linux Filesystem"
 .BL
