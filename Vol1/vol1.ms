@@ -15,7 +15,7 @@ What this book is?
 .BL
 Who it's for?
 .BL
-How to Use it
+How to use this book
 .BL
 Installing Linux
 .B 
@@ -103,5 +103,46 @@ What does All these Folders mean?
 .bp
 .NH
 Introduction:
+.NH 2
+What this book is?
 .PP
-
+Welcome to
+.B "The Linux Path.
+.br
+If you're holding this book, chances are you've heard of Linux but aren't quite
+sure where to begin. Maybe you've used Windows or MacOS your whole life.
+.br
+Maybe you've heard that Linux is difficult, only for programmers, or that you
+need to memorize hundreds of commands before you can accomplish anything.
+.br
+None of that is true.
+.br
+Linux is simply
+.I "another way of using a computer,"
+one that gives you more control, more freedom, and a deeper understanding of
+the machine in front of you.
+.br
+Like any new skill, it can seem unfamiliar at first, but with the right approach
+it becomes logical and rewarding.
+.NH 2
+Who it's for?
+.PP
+This Book was written with one goal in mind: to teach Linux from the ground up.
+You don't need programming experience. You don't need to know how an operating
+system works. If you can use a keyboard, follow instructions, and are willing to
+experiment, you already have everything you need.
+.NH 2
+How to use this book?
+.PP
+Throughout this book you'll find practical exercises designed to reinforce what
+you've learned. Whenever possible, I encourage you to type every command
+yourself rather than simply reading about it. Linux is learned by using it.
+.br
+By the end of this volume you will be able to navigate the Linux filesystem with
+confidence, manage files and directories, understand permissions, edit text
+files via the terminal, install software, use system documentation, and perform
+the everyday tasks expected of a Linux user.
+.br
+This is only the beginning of your journey. The goal of this book is not to make
+you an expert overnight, but to give you a solid foundation upon which every
+future Linux skill can be built.
