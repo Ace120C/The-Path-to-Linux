@@ -11,6 +11,10 @@ Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
 
 See the LICENSE file for the full license text.
 
+## Prerequisites
+- a Linux System
+- Git
+
 ## How to Compile this pdf?
 First clone this repo
 ```bash
