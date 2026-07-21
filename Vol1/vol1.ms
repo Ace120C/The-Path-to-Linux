@@ -16,9 +16,6 @@ What this book is?
 Who it's for?
 .BL
 How to use this book
-.BL
-Installing Linux
-.B 
 .IP "2." 3
 .B "What is Linux"
 .BL
@@ -27,6 +24,8 @@ History
 The Linux Kernel
 .BL
 Distributions
+.BL
+Installing Linux
 .IP "3." 3
 .B "The Terminal"
 .BL
@@ -146,3 +145,22 @@ the everyday tasks expected of a Linux user.
 This is only the beginning of your journey. The goal of this book is not to make
 you an expert overnight, but to give you a solid foundation upon which every
 future Linux skill can be built.
+.NH
+What is Linux
+.NH 2
+History
+.SH
+-> The Foundation: GNU (1983)
+.PP
+Before Linux existed, Richard Stallman started the 
+.B "GNU project".
+His goal was to create a completely free, Unix-like operating system.
+.br
+By the early 1990s, the GNU team had build almost all the necessary components
+of an OS: a compiler, a text editor, and various libraries, but they were
+missing the most critical part:
+.B "the kernel"
+(we will get to this in the next chapter) 
+.SH
+-> The Spark: Linus Torvalds (1991)
+.PP
