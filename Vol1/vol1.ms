@@ -164,3 +164,31 @@ missing the most critical part:
 .SH
 -> The Spark: Linus Torvalds (1991)
 .PP
+In 1991, Linus Torvalds, a 21-year old student at the University of Helsinki in
+Finland, became frustrated with the operating system he was using for school
+(Minix). He wanted something more powerful but couldn't afford a commercial Unix
+License.
+.br
+As a hobby, Linus began writing his own kernel. On August 25, 1991, he posted a
+famous message to a computer newsgroup:
+.br
+\f[BI] I'm doing a (free) operating system (just a hobby, won't be big and
+professional like gnu)....\f[]
+.SH
+-> It's all coming together: GNU/Linux
+.PP
+Linus had the kernel, but he didn't have a full suite of tools (like a shell or
+a file manager). Meanwhile, the GNU project had the tools, but no kernel.
+.br
+Linus released his kernel under the GNU General Public License (GPL). This was a
+pivotal move because it meant anyone could see the code, modify it, and
+redistribute it, provided they kept the software open source. This encouraged
+developers worldwide to contribute their own improvements, leading to an
+explosive growth.
+.br
+When the GNU tools were combined with the Linux kernel, a complete operating system was born,
+.B GNU/Linux.
+.NH
+The Linux kernel
+.PP
+
