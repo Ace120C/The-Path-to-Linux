@@ -292,4 +292,31 @@ The most common package manager used in Fedora based Distributions is
 .SH
 Arch Based Distributions:
 .PP
+Arch Linux is a DIY (Do It Yourself) Linux distribution. Instead of providing
+a fully configured desktop out of the box, you are given a minimal Linux system
+and build the rest yourself by following the official installation guide. This
+includes choosing and installing your desktop environment, applications, and
+other software.
+.PP
+One of the features that makes Arch Linux unique is the
+.B "Arch User Repository (AUR)".
+The AUR is a community-maintained repository containing build scripts for
+thousands of applications that are not included in Arch's official
+repositories.
+.PP
+This makes it much easier to install niche or less common software. Rather than
+searching the internet for installation instructions or manually building a
+package, there is often an AUR package available that automates most of the
+process. While the AUR is maintained by the community rather than the Arch
+Linux developers, it is one of the most popular features of the Arch ecosystem.
+.br
+.B "Some distributions based on Arch"
+.BL
+.B Manjaro:
+An Arch based Distribution, that targets beginners, it's main selling point is
+an ease of installation, a beginner friendly community, and
+.B Pamac
+, which is a frontend GUI application that fetches the AUR packages (among other
+formats such as flatpak which we will get to later), which means a user doesn't
+have to use the terminal to install a package from the AUR.
 
