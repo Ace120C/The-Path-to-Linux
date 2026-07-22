@@ -261,3 +261,35 @@ Windows as it mimics the look and feel of Windows.
 .PP
 The most common package manager used in Debian Linux Distributions is 
 .B APT
+.SH
+Fedora Based Distributions
+.PP
+Fedora is a Linux distribution that focuses on providing recent software while
+maintaining a reliable and stable operating system. It is popular among
+developers, workstation users, and Linux enthusiasts who want access to new
+features without sacrificing everyday usability.
+.br
+Fedora often introduces new technologies before they are adopted by enterprise
+distributions such as 
+.B "Red Hat Enterprise Linux (RHEL),"
+Because of this, it is frequently used as a testing ground for features that may
+later appear in RHEL.
+.br
+.B "Some distributions based on Fedora:"
+.BL
+.B Nobara: 
+ A Fedora based distribution designed for gaming and content creation.
+.BL
+.B Bazzite:
+A Fedora based distribution optimized for gaming handheld consoles.
+.BL
+.B "Ultramarine Linux"
+A fedora based distribution, that comes polished and pre-configured out of the
+box for desktop use, Making it an excellent choice for beginners.
+.PP
+The most common package manager used in Fedora based Distributions is 
+.B DNF
+.SH
+Arch Based Distributions:
+.PP
+
