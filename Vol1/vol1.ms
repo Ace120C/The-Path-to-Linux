@@ -172,8 +172,7 @@ License.
 As a hobby, Linus began writing his own kernel. On August 25, 1991, he posted a
 famous message to a computer newsgroup:
 .br
-\f[BI] I'm doing a (free) operating system (just a hobby, won't be big and
-professional like gnu)....\f[]
+.BI "I'm doing a (free) operating system (just a hobby, won't be big and professional like gnu)...."
 .SH
 -> It's all coming together: GNU/Linux
 .PP
@@ -191,4 +190,74 @@ When the GNU tools were combined with the Linux kernel, a complete operating sys
 .NH
 The Linux kernel
 .PP
-
+A kernel is the core 
+.BI brain
+of the operating system that acts as a middleman between your computer's
+hardware and the software you use. While your apps (like a web browser or game)
+provide the interface you see, the kernel work behind the scenes to manage the
+heavy lifting: it tells the CPU which tasks to prioritize, allocate RAM so apps
+don't interfere with each other, and translates software commands into signals that
+the hardware (like your keyboard or screen) can understand. Essentially, The Linux kernel acts as 
+the bridge between your applications and your computer's hardware. Without it, 
+software would have no reliable way to interact with the physical components of your computer.
+.NH
+Distributions
+.PP
+Throughout the 1990s and the 2000s, Linux evolved from a niche tool for hackers
+into a professional powerhouse. Because the code was free, companies and
+communities created
+.B Distributions.
+.br
+.SH
+What is a Distribution?
+.PP
+A 
+.BI Distribution
+is a complete, ready-to-use operating system that bundles the Linux Kernel with
+a collection of additional software, such as a Desktop Environment, a package
+manager for installing apps, and a set of pre-installed utilities. 
+.br
+Since the Linux Kernel itself is just the "engine" that manages hardware, a
+distribution acts as the "entire car", providing the user interface and tools
+necessary for a person to actually interact with their computer. Because Linux
+is Free and Open Source Software (FOSS), different organizations and communities
+create different distros, that each serves a different purpose.
+.SH
+How to Choose a Linux Distribution
+.PP
+Linux distributions come in many shapes and sizes. Some are designed for beginners,
+while others target developers, servers, embedded devices, or users who want complete control over their system.
+.br
+Many popular Linux distributions are based on a small number of well-established parent distributions,
+When a distribution is based on another distribution, it inherits many of its packages, tools, 
+and design decisions while adding its own features and customization.
+.br
+While there are hundreds of Linux distributions, most desktop users will
+encounter distributions that belong to one of these major families:
+.SH
+Debian Based Distributions:
+.PP
+Debian is a Linux distribution that prioritizes stability and reliability. It
+is widely used on servers and by users who value a dependable system over
+having the latest software.
+.br
+To achieve this stability, Debian follows a careful release process. New
+software is thoroughly tested before it becomes part of a stable release, which
+helps reduce bugs and unexpected problems. Security updates, however, are
+released as soon as they are available so that users receive important fixes
+without waiting for the next major release.
+.B "Some Distributions that are based on Debian:"
+.BL
+.B Ubuntu: 
+A General Purpose Linux Distro aimed at beginners.
+.BL
+.B Devuan: 
+A Debian Based Distro that does not use systemd, the default init system
+used by many Linux distributions. We'll discuss this in later chapters.
+.BL
+.B "Linux Mint:" 
+A Beginner-friendly Linux distribution aimed at users coming from
+Windows as it mimics the look and feel of Windows.
+.PP
+The most common package manager used in Debian Linux Distributions is 
+.B APT
