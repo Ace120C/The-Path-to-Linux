@@ -262,7 +262,7 @@ Windows as it mimics the look and feel of Windows.
 The most common package manager used in Debian Linux Distributions is 
 .B APT
 .SH
-Fedora Based Distributions
+Fedora Based Distributions:
 .PP
 Fedora is a Linux distribution that focuses on providing recent software while
 maintaining a reliable and stable operating system. It is popular among
@@ -310,7 +310,7 @@ package, there is often an AUR package available that automates most of the
 process. While the AUR is maintained by the community rather than the Arch
 Linux developers, it is one of the most popular features of the Arch ecosystem.
 .br
-.B "Some distributions based on Arch"
+.B "Some distributions based on Arch:"
 .BL
 .B Manjaro:
 An Arch based Distribution, that targets beginners, it's main selling point is
@@ -319,4 +319,35 @@ an ease of installation, a beginner friendly community, and
 , which is a frontend GUI application that fetches the AUR packages (among other
 formats such as flatpak which we will get to later), which means a user doesn't
 have to use the terminal to install a package from the AUR.
+.BL
+.B CachyOS:
+An Arch-based distribution focused on performance. It includes optimized
+kernels and packages tailored for different workloads, such as gaming,
+desktop use, and software development. It also comes with sensible defaults,
+making it easy to customize while remaining suitable for both beginners and
+advanced users.
+.BL
+.B Artix:
+An Arch based Distribution that is exactly like Arch Linux but does not use systemd,
+It offer other alternative init systems, which makes this suitable for
+tinkerers and advanced users.
+.PP
+The most common package manager used in Arch based Distributions is 
+.B Pacman
+.SH
+Gentoo Based Distributions:
+.PP
+Gentoo Linux is a highly customizable Linux distribution that allows users to
+build their system from the ground up. Unlike most distributions, Gentoo
+primarily installs software by compiling it directly from source code. This
+gives users a great deal of control over how software is built and configured,
+allowing them to optimize their system for their specific needs.
 
+.br
+Gentoo also allows extensive customization of the Linux kernel and installed
+software, making it one of the most flexible Linux distributions available.
+Because of its manual setup process and steep learning curve, Gentoo is
+generally recommended for advanced users who want complete control over their
+system.
+.br
+.B "Some distributions based on Gentoo:"
