@@ -246,6 +246,8 @@ software is thoroughly tested before it becomes part of a stable release, which
 helps reduce bugs and unexpected problems. Security updates, however, are
 released as soon as they are available so that users receive important fixes
 without waiting for the next major release.
+
+.br
 .B "Some Distributions that are based on Debian:"
 .BL
 .B Ubuntu: 
@@ -274,6 +276,8 @@ distributions such as
 .B "Red Hat Enterprise Linux (RHEL),"
 Because of this, it is frequently used as a testing ground for features that may
 later appear in RHEL.
+
+
 .br
 .B "Some distributions based on Fedora:"
 .BL
@@ -309,6 +313,8 @@ searching the internet for installation instructions or manually building a
 package, there is often an AUR package available that automates most of the
 process. While the AUR is maintained by the community rather than the Arch
 Linux developers, it is one of the most popular features of the Arch ecosystem.
+
+
 .br
 .B "Some distributions based on Arch:"
 .BL
@@ -349,5 +355,7 @@ software, making it one of the most flexible Linux distributions available.
 Because of its manual setup process and steep learning curve, Gentoo is
 generally recommended for advanced users who want complete control over their
 system.
+
+
 .br
 .B "Some distributions based on Gentoo:"
