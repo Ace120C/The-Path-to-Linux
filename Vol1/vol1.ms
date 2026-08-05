@@ -361,4 +361,38 @@ system.
 .B "Some distributions based on Gentoo:"
 .BL
 .B "Red Core Linux:"
-A Gentoo Based Distro
+A Gentoo Based Distro which uses a hardened Linux kernel by default, and it is
+designed to be a "ready to use" Distro rather than a barebones, which is one of
+the pain points of Gentoo Linux, it uses a special package manager called
+Sisyphus, which provides binary packages instead of compiling everything from
+source, of course the stock package manager still exists for anyone who needs
+it.
+.BL
+.B Funtoo:
+A Gentoo Based Distro which is designed to give the users the best possible
+performance for their own hardware, the user have a choice to get a
+pre-configured iso with The
+.B Gnome
+Desktop Environment or a barebone build where the user chooses their own
+environment. 
+
+.PP
+The most common package manager used in Gentoo Based Distributions is
+.B Emerge
+
+.SH
+SUSE Based Distributions:
+.PP
+SUSE Linux is a Linux Distribution commonly used in enterprise-grade
+IT infrastructure. The Distribution itself focuses on stability but also offers
+bleeding edge features and software, most notably is
+.B snapper
+which is a rollback application that utilizes the btrfs filesystem snapshot
+feature which allows the user to rollback to a previous working version of the
+system in case the current system broke from an update or a bad configuration.
+.br
+.B "Some distribution based on SUSE:"
+.BL
+.B OpenSUSE:
+The community version of SUSE, while SUSE is a paid Linux distribution, OpenSUSE
+remains free for the general userbase, 
