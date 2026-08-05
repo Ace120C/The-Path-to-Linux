@@ -359,3 +359,6 @@ system.
 
 .br
 .B "Some distributions based on Gentoo:"
+.BL
+.B "Red Core Linux:"
+A Gentoo Based Distro
