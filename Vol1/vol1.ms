@@ -395,4 +395,18 @@ system in case the current system broke from an update or a bad configuration.
 .BL
 .B OpenSUSE:
 The community version of SUSE, while SUSE is a paid Linux distribution, OpenSUSE
-remains free for the general userbase, 
+remains free for the general users, and it has several versions, most notable
+versions are
+.B Tumbleweed
+, which is the rolling release version of OpenSUSE and
+.B Leap
+, which is the fixed/stable release of OpenSUSE.
+.PP
+The most common package manager used in OpenSUSE Distributions is
+.B Zypper
+
+
+.SH
+Slackware Based Distributions:
+.PP
+
