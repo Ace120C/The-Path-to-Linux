@@ -409,4 +409,17 @@ The most common package manager used in OpenSUSE Distributions is
 .SH
 Slackware Based Distributions:
 .PP
-
+Slackware is the oldest actively maintained running the Linux distribution
+dating all the way from 1993, it is known for it's simplicity and rock solid
+stability, it uses plain text files and only a small set of shell scripts for
+configuration and administration.
+.br
+.B "Some distributions based on Slackware:"
+.BL
+.B "Salix OS:"
+A lightweight and user-friendly distribution that is fully compatible with Slackware. 
+It offers a variety of desktop environments and aims to be easy to use for newcomers. 
+.BL
+.B "Vector Linux:"
+Designed for performance and ease of use, Vector Linux is suitable for both older hardware and modern systems.
+It provides a graphical installer and a range of desktop environments.
