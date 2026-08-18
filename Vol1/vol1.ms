@@ -423,3 +423,19 @@ It offers a variety of desktop environments and aims to be easy to use for newco
 .B "Vector Linux:"
 Designed for performance and ease of use, Vector Linux is suitable for both older hardware and modern systems.
 It provides a graphical installer and a range of desktop environments.
+.PP
+Because of the nature of this distribution Slackware uses several package
+managers most notably are:
+.br
+.B "slapt-get and pkgtools (pkginstall pkgremove etc....)"
+.SH
+Independent Distributions:
+.PP
+Independent distributions are Linux distributions that are not derived from any
+existing major Linux distribution, such as Debian or Arch but rather developed
+entirely from scratch.
+.br
+.B "Some Independent Distributions:"
+.BL
+.B "Void Linux:"
+Void Linux is an Independent Linux distribution that is systemd-free, 
