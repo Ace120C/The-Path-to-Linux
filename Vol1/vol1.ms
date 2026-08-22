@@ -15,9 +15,9 @@ What this book is?
 .BL
 Who it's for?
 .BL
-How to use this book
+How to use this book?
 .IP "2." 3
-.B "What is Linux"
+.B "What is Linux?"
 .BL
 History
 .BL
@@ -29,7 +29,7 @@ Installing Linux
 .IP "3." 3
 .B "The Terminal"
 .BL
-Why the Terminal Exists
+Why does the Terminal Exists?
 .BL
 The Shell
 .BL 
@@ -146,7 +146,7 @@ This is only the beginning of your journey. The goal of this book is not to make
 you an expert overnight, but to give you a solid foundation upon which every
 future Linux skill can be built.
 .NH
-What is Linux
+What is Linux?
 .NH 2
 History
 .SH
@@ -462,17 +462,42 @@ steep learning curve, but learning this distribution would allow you to
 reproduce the same system even after a full wipe, by having a backup of
 configuration.nix.
 
-.NH
+.SH
 Installing Linux
 .SH
 Pre-requisites:
 .BL
-.B "* a USB flash drive"
+.B "a USB flash drive"
 .BL
-.B "* an Internet Connection"
+.B "an Internet Connection"
 .BL
-.B "* a Computer"
+.B "a Computer"
 .SH
 Installation Process:
+.PP
+First, go to your chosen Linux distribution's website, download the ISO file
+from there, after that's done download flashing software (Rufus, Belena Etcher,
+Ventoy), insert your USB flash drive and follow the instructions of your chosen
+flashing software, by the end of it you will have a flash drive with a Linux ISO
+image on it.
+.br
+Second, restart your computer with the USB stick still inserted, press your BIOS
+key (check your motherboard or laptop manual), which get you to the BIOS menu,
+there are few things we need to check here, USB boot is enabled (that's an
+option that's available in some laptops such as HP), secure boot is disabled
+(some distros would not boot with that enabled), your USB flash drive being at
+the top priority in the boot order menu, once we've got all that sorted we are
+ready to boot into our Linux installation media.
+.br
+Third, save and exit your BIOS menu, and boot normal, you now boot into your
+chosen distribution's Live environment (if it has any), from there you can try
+out your distribution without installing it, once you are satisfied proceed to
+the installation, follow your distribution's instructions and you should have a
+successful Linux installation.
+
+.NH
+The Terminal
+.SH
+Why does the Terminal Exist?
 .PP
 
