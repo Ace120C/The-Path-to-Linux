@@ -461,3 +461,18 @@ this distribution to have a
 steep learning curve, but learning this distribution would allow you to
 reproduce the same system even after a full wipe, by having a backup of
 configuration.nix.
+
+.NH
+Installing Linux
+.SH
+Pre-requisites:
+.BL
+.B "* a USB flash drive"
+.BL
+.B "* an Internet Connection"
+.BL
+.B "* a Computer"
+.SH
+Installation Process:
+.PP
+
