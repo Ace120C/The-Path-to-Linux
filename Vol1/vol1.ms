@@ -438,4 +438,26 @@ entirely from scratch.
 .B "Some Independent Distributions:"
 .BL
 .B "Void Linux:"
-Void Linux is an Independent Linux distribution that is systemd-free, 
+Void Linux is a DIY Independent Linux distribution that is systemd-free, it uses
+runit as the init system and it is known to be minimal fast and efficient, and
+widely compatible with multiple architectures (ARM x86 etc...).
+.BL
+.B "CRUX Linux:"
+CRUX is a DIY source based Independent Linux distribution that was the inspiration
+for the creation of Arch Linux, it is known to be BSD-like in it's packaging
+system by utilizing the ports system for installing packages.
+.BL
+.B "Nix OS:"
+Nix OS is a declarative Independent Linux distribution that is known to be entirely
+reproducible and that's achieved by
+.B declaring
+packages and options that you need in a single file called 
+.BI configuration.nix
+which where you'd list out all the options that you'd like such as what
+applications do you want, which desktop environment/window manager do you want
+among other options, utilizing the nix programming language, which what makes
+this distribution to have a
+.B VERY
+steep learning curve, but learning this distribution would allow you to
+reproduce the same system even after a full wipe, by having a backup of
+configuration.nix.
