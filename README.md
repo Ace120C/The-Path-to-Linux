@@ -14,6 +14,7 @@ See the LICENSE file for the full license text.
 ## Prerequisites
 - a Linux System
 - Git
+- GNU roff (groff)
 
 ## How to Compile this pdf?
 First clone this repo
