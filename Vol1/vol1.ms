@@ -500,4 +500,32 @@ The Terminal
 .SH
 Why does the Terminal Exist?
 .PP
+Back in the old days, computers weren't a single unit; a computer was divided into
+two different parts: the mainframe and the terminals. The terminals connected to
+the mainframe and sent it commands; the mainframe did the necessary calculations
+and sent the results back to the terminals.
+.br
+Think of the mainframe as the 'brain' and the terminals as the 'eyes and hands.'
+The terminal didn't 'think'; it only sent messages to the brain and showed the brain's response.
+.br
+Even though today your laptop is powerful enough to be its own mainframe, we
+still use a 'Terminal' application to mimic this old way of communicating with the
+operating system.
+.br
+You might ask: "Why go through all this trouble when it's just an old way of
+interacting with the machine?" Good question. Let's put it simply:
+.br
+.BI "The Terminal simply gives you MORE power and control"
+.br
+Most graphical applications are merely wrappers for existing terminal commands.
+While this makes them convenient, graphical applications often lack features that
+are available in the terminal—features that would be too complex or impossible to
+implement in a graphical interface.
+.br
+For instance, if you want to rename 1,000 files at once, a graphical folder would make you do it one by one. 
+In the terminal, you can do it with one single line of text.
+
+.SH
+The Shell
+.PP
 
