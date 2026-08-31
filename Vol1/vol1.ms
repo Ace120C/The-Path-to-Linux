@@ -528,4 +528,54 @@ In the terminal, you can do it with one single line of text.
 .SH
 The Shell
 .PP
+Now that you know what a Terminal is, you will often hear the word "Shell". 
+Many people use these terms as if they are the same thing, but they are actually very different.
+To put it simply:
+.br
+.B "The Terminal is the window, but the Shell is the brain inside that window."
+.br
+Essentially what a Shell is the back-end that translates the commands that are
+inputted in the terminal so your computer can understand what you are asking
+it to do.
+.br
+There are plenty of Shells that you can use in Linux but here are the most
+common ones that you might find:
+.BL
+.B BASH:
+The Bourne Again Shell (BASH) is the default shell in most Linux distributions,
+it is a POSIX compliant Shell that is developed by the GNU project and is 
+an evolution of the standard UNIX shell, as it adds extra features on top of it.
+.BL
+.B Zsh:
+The Z shell (Zsh) is a POSIX Compliant shell that is more commonly found in
+Apple Mac Computers and it is known to have even more features than BASH, it is
+more commonly used by people who are looking for convenience and customization,
+because of the many extra features that Zsh has, it is much slower than BASH,
+nevertheless it is a very powerful and very customizable Shell for people who
+are looking for the most convenient Shell and doesn't care about raw performance
+and speed, however it does have a steep learning curve as you will need to learn
+how to configure it to take advantage of it's extra features.
+.BL
+.B FISH:
+The Friendly Interactive Shell (FISH) is a Modern Shell that has a lot of
+convenient and quality of life features but unlike Zsh it is pre-configured out
+of the box, However it is 
+.B NOT
+compliant with the POSIX standard which results some scripts that were made
+with POSIX in mind not running properly or not running at all inside of FISH,
+however this is an issue only for developers and tinkerers, the average person would not be
+affected by this, FISH is more commonly found in modern distributions such as
+CachyOS.
+.BL
+.B OKSH:
+The OpenBSD Korn Shell is a Pure POSIX compliant Shell that follows the POSIX
+standard aggressively and it is Only seen used in OpenBSD, which is a UNIX-like
+OS and is not part of the Linux Distribution Family, but the Shell can be
+installed manually to any Linux Distribution if required, OKSH is used by minimalists
+who wants the least amount of memory footprint and aren't too concerned about
+quality of life features or extensive customization options.
+
+.SH
+Terminal Emulators
+.PP
 
