@@ -626,4 +626,52 @@ what to do, That is okay and we all start from somewhere so let's begin learning
 about how we even move around the filesystem. 
 .NH 2
 Where am I? (pwd)
+.PP
+pwd stands for "
+.B P
+.I rint
+.B W
+.I orking
+.B D
+.I irectory
+", which means it will show you where you are at
+.B Currently
+in the Filesystem, Unlike Non-Unix OSes like Windows, there is no D or C drive,
+you start off in the
+.B Home
+Folder every time you launch a new instance of your chosen terminal emulator.
+.br
+The Linux Filesystem branches off like a tree, which many folders and files but
+we will get to explain that in detail, later chapters.
+.br
+All you need to know right now is running 
+.B pwd
+will basically tell where you at in the filesystem.
+.SH
+Example:
+.PP
+$ pwd
+.br
+/home/ace
+.PP
+$ pwd
+.br
+/home/ace/Downloads
+.PP
+most common shells nowadays such as 
+.B Zsh 
+and 
+.B BASH 
+already come per-configured
+with the ability to show your location on the filesystem without running pwd
+however some like 
+.B OKSH 
+do not so it's a good idea to remember this command in
+case your shell does not have this feature.
+.SH
+Example:
+.br
+.PSPIC -C img/pwd.eps
+.br
+.I Zsh Shell with the location already shown
 

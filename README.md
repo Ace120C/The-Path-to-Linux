@@ -15,7 +15,7 @@ See the LICENSE file for the full license text.
 - a Linux System
 - Git
 - GNU roff (groff)
-
+- BASH or any other POSIX Compiliant Shell
 ## How to Compile this pdf?
 First clone this repo
 ```bash
@@ -23,6 +23,6 @@ git clone https://github.com/Ace120C/The-Path-to-Linux.git
 ```
 then go to the vol folder and run
 ```bash
-groff -ms vol1.ms -T pdf > vol1.pdf
+./compile.sh
 ```
 Replace vol1 with vol2, vol3, etc., when building other volumes.
