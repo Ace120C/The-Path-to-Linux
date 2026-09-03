@@ -619,6 +619,11 @@ Emulator is recommended for intermediate users.
 
 .NH
 Navigation:
+.PP
+As you open your Terminal Emulator, you find a blank screen, a prompt and a
+cursor blinking, your mind goes blank and you have no idea where to begin, and
+what to do, That is okay and we all start from somewhere so let's begin learning
+about how we even move around the filesystem. 
 .NH 2
 Where am I? (pwd)
 
