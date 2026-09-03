@@ -578,4 +578,47 @@ quality of life features or extensive customization options.
 .SH
 Terminal Emulators
 .PP
+We just established that the original terminals were physical pieces of
+hardware-heavy machines with keyboards and screens, 
+you might be wondering: "I don't have a giant machine from the 1970s on my desk, 
+so what am I actually using on my laptop?"
+.br
+The Answer is:
+.B "a Terminal Emulator."
+.br
+a Terminal Emulator is a piece of software that mimics the original Terminals
+behavior, Since we no longer use physical terminals in modern systems, as it
+would be inconvenient, a Terminal Emulator does the same job as a real Terminal
+as it acts as a bridge between the shell and yourself.  
+.br
+.B "There are a lot of Terminal Emulators to choose from and it all depends on
+your personal preferences, but here are the most popular Terminal Emulator:"
+.BL
+.B "Gnome Terminal:"
+The Default Terminal used in Gnome Desktops, it is known to be very easy to
+configure and use.
+.BL
+.B Konsole:
+The Default Terminal in KDE Desktops, It is Highly flexible and offers more
+advanced features and customization options for users who want a more powerful
+workspace.
+.BL
+.B "Simple Terminal (st):"
+st is a Terminal Emulator developed by Suckless and it is the default terminal on the 
+.B dwm 
+window manager, it is extremely flexible but it is made for power users in mind and it is only recommended for
+advanced users as it is only configured at the source code level using the C
+programming language, This allows for The Terminal Emulator to be molded by the
+user according to their needs.
+.BL
+.B Kitty:
+Kitty is a Terminal Emulator that is known to be feature rich, and easy to
+customize with a lot of theme presets available, it's configuration file is also
+easily accessible with a key bind so you can edit it on the fly, this Terminal
+Emulator is recommended for intermediate users.
+
+.NH
+Navigation:
+.NH 2
+Where am I? (pwd)
 
