@@ -673,5 +673,26 @@ Example:
 .br
 .PSPIC -C img/pwd.eps
 .br
-.I Zsh Shell with the location already shown
-
+.I "Zsh Shell with the location already shown"
+.NH 2
+Looking Around (ls)
+.PP
+ls stands for
+.B LIST
+and it lists all the files and directories, using "ls" by it's own would list
+all files and folder in your current directory.
+.br
+For example:
+.br
+$ pwd
+.PP
+/home/ace/Downloads
+.br
+$ ls
+.PP
+file1.txt file2.txt directory1/ directory2/
+.br
+.PSPIC -C img/ls.eps
+.br
+.I "ls in action"
+.br
