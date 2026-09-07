@@ -15,6 +15,7 @@ See the LICENSE file for the full license text.
 - a Linux System
 - Git
 - GNU roff (groff)
+- ghostscript
 - BASH or any other POSIX Compiliant Shell
 ## How to Compile this pdf?
 First clone this repo
