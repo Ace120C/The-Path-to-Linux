@@ -680,7 +680,9 @@ Looking Around (ls)
 ls stands for
 .B LIST
 and it lists all the files and directories, using "ls" by it's own would list
-all files and folder in your current directory.
+all files and folder in your 
+.B current 
+directory.
 .br
 For example:
 .br
@@ -696,3 +698,39 @@ file1.txt file2.txt directory1/ directory2/
 .br
 .I "ls in action"
 .br
+
+of course this is not the only thing you can do with ls, there are other ways to
+expand it's functionality by using 
+.BI flags.
+.br
+I shall know explain what a command flag is:
+.br
+A command flag is an extra argument you add next to the command for an
+additional functionality, and they are defined by using a dash (-), next to the
+command + the option that you want.
+.br
+now that we know what flags are now, let us explore what extra functionality you
+can use use with the command "ls".
+.br
+.BL
+-a: list all files and directories including the hidden ones.
+.BL
+-l: list all file and directories with additional details (permissions date of
+creation size etc...)
+.BL
+-h: human readable, it's usually paired with the command -l to display the size
+of files in human readable format (KB, MB, GB) because by default, it displays in
+bytes.
+.br
+ls can also work on a directory without being in inside it.
+.br
+example:
+.br
+$ ls test/
+.PP
+file1.txt file2.txt directory1/ directory2/
+.br
+.NH 2
+Changing Directories (cd)
+.PP
+
